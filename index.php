@@ -181,7 +181,7 @@ $aEjercicios = array(
     "Ejercicio5" => $ejer5,
     "Ejercicio6" => $ejer6,
     "Ejercicio7" => $ejer7,
-    "Ejercicios en Github =>" => "<a href='https://github.com/jlalvarezfernandez?tab=repositories' target='_blank'><button>GitHub</button></a> ",
+    "Ejercicios en Github =>" => "<a href='https://github.com/jlalvarezfernandez/DWES19-20/tree/master/TEMA1/ejercicios' target='_blank'><button>GitHub</button></a> ",
   ),
   
 );
