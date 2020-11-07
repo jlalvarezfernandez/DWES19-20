@@ -44,7 +44,7 @@ $resultado = $num2 + $num1;
         <aside>
             <section>
                 <h2>Github</h2>
-                <a href="https://github.com/jlalvarezfernandez?tab=repositories" target="_blank"><button>GitHub</button></a> 
+                <a href="https://github.com/jlalvarezfernandez/DWES19-20/blob/master/TEMA1/ejercicios/sumaNumeros.php" target="_blank"><button>GitHub</button></a> 
             </section>
 
         </aside>
