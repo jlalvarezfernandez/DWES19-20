@@ -1,0 +1,17 @@
+body{
+    background-color: white;
+}
+
+
+table, td, th {
+    *width: 100px;
+
+    height: 50px;
+    border: 1px solid black;
+    text-align: center;
+
+}
+
+td{
+    width: 200px;
+}
