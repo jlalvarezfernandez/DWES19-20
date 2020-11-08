@@ -7,18 +7,8 @@
  */
 
 
+// definimos las variables con los datos personales
 
-
-
-
-
-/* $ejer1 = "<a href='Tema2/ejercicios/numeroMayor.php' target='_blank'><p>Ejercicio 1: Número mayor</p></a>";
-$aTema2 = array(
-  array("ejercicio1" => $ejer1)
-);
- */
-
-// definimos las variables
 $img = "img/yo.jpg";
 $mail = 'jl.alvarezfernadez@hotmail.com';
 $telefono = "665693979";
@@ -29,6 +19,8 @@ $imgTwi = "img/imgtwi.png";
 $imgEmail = "img/imgEmail.png";
 $imgTelf = "img/imgTelf.png";
 
+
+// variables para la imagen que cambia segun la estación del año
 $dia = date("j");
 $mes = date("n");
 
@@ -39,152 +31,154 @@ $otonio = "img/otoño.jpg";
 
 // variables enlaces ejercicios tema 2
 
-$ejer1 = "<a href='Tema1/ejercicios/presentacion.php' target='_blank'><p>Presentación</p></a>";
-$ejer2 = "<a href='Tema1/ejercicios/calculoAreaCirculo.php' target='_blank'><p>Calculo del área de un circulo</p></a>";
-$ejer3 = "<a href='Tema1/ejercicios/sumaNumeros.php' target='_blank'><p>suma dos números</p></a>";
-$ejer4 = "<a href='Tema1/ejercicios/cargarVariables.php' target='_blank'><p>Operaciones con variables</p></a>";
-$ejer5 = "<a href='Tema1/ejercicios/mostrarInformacion.php' target='_blank'><p>Operaciones con variables II</p></a>";
-$ejer6 = "<a href='Tema1/ejercicios/contenidoVariable.php' target='_blank'><p>Contenido con variables</p></a>";
-$ejer7 = "<a href='Tema1/ejercicios/contenidoVariablesII.php' target='_blank'><p>Contenido con variables II</p></a>";
-$enlaceTema1Git = "<a href='Tema1/ejercicios/contenidoVariablesII.php' target='_blank'><p>GitHub</p></a>";
+$ejer1 = "<a href='Tema1/ejercicios/presentacion.php' target='_blank'>Presentación</a>";
+$ejer2 = "<a href='Tema1/ejercicios/calculoAreaCirculo.php' target='_blank'>Calculo del área de un circulo</a>";
+$ejer3 = "<a href='Tema1/ejercicios/sumaNumeros.php' target='_blank'>suma dos números</a>";
+$ejer4 = "<a href='Tema1/ejercicios/cargarVariables.php' target='_blank'>Operaciones con variables</a>";
+$ejer5 = "<a href='Tema1/ejercicios/mostrarInformacion.php' target='_blank'>Operaciones con variables II</a>";
+$ejer6 = "<a href='Tema1/ejercicios/contenidoVariable.php' target='_blank'>Contenido con variables</a>";
+$ejer7 = "<a href='Tema1/ejercicios/contenidoVariablesII.php' target='_blank'>Contenido con variables II</a>";
+$enlaceTema1Git = "<a href='Tema1/ejercicios/contenidoVariablesII.php' target='_blank'>GitHub</a>";
 
 // variables enlaces ejercicios tema 3 condicionales
 
-$ejer1C = "<a href='Tema2/ejercicios/numeroMayor.php' target='_blank'><p>Número mayor</p></a>";
-$ejer2C = "<a href='Tema2/ejercicios/diasMes.php' target='_blank'><p>Mostrar dias del mes</p></a>";
-$ejer3C = "<a href='Tema2/ejercicios/calcularEdad.php' target='_blank'><p>Calcular edad</p></a>";
-$ejer4C = "<a href='Tema2/ejercicios/estaciones.php' target='_blank'><p>Mostrar estaciones</p></a>";
-$ejer5C = "<a href='Tema2/ejercicios/enlaces.php' target='_blank'><p>Enlaces</p></a>";
+$ejer1C = "<a href='Tema2/ejercicios/numeroMayor.php' target='_blank'>Número mayor</a>";
+$ejer2C = "<a href='Tema2/ejercicios/diasMes.php' target='_blank'>Mostrar dias del mes</a>";
+$ejer3C = "<a href='Tema2/ejercicios/calcularEdad.php' target='_blank'>Calcular edad</a>";
+$ejer4C = "<a href='Tema2/ejercicios/estaciones.php' target='_blank'>Mostrar estaciones</a>";
+$ejer5C = "<a href='Tema2/ejercicios/enlaces.php' target='_blank'>Enlaces</a>";
 
 //variables enlaces ejercicios tema 3 bucles
 
-$ejer1B = "<a href='Tema2/ejercicios/mostrar1-10.php' target='_blank'><p>Mostrar del 1 al 10</p></a>";
-$ejer2B = "<a href='Tema2/ejercicios/sumarNumerosPares.php' target='_blank'><p>Sumar los 3 primeros números pares</p></a>";
-$ejer3B = "<a href='Tema2/ejercicios/calcularEdad.php' target='_blank'><p>Calcular edad</p></a>";
-$ejer4B = "<a href='Tema2/ejercicios/tablaMultiplicar.php' target='_blank'><p>tabla multiplicar</p></a>";
-$ejer5B = "<a href='Tema2/ejercicios/paleta.php' target='_blank'><p>Paleta de colores</p></a>";
-$ejer6B = "<a href='Tema2/ejercicios/calendario.php' target='_blank'><p>Calendario</p></a>";
+$ejer1B = "<a href='Tema2/ejercicios/mostrar1-10.php' target='_blank'>Mostrar del 1 al 10</a>";
+$ejer2B = "<a href='Tema2/ejercicios/sumarNumerosPares.php' target='_blank'>Sumar los 3 primeros números pares</a>";
+$ejer3B = "<a href='Tema2/ejercicios/calcularEdad.php' target='_blank'>Calcular edad</a>";
+$ejer4B = "<a href='Tema2/ejercicios/tablaMultiplicar.php' target='_blank'>tabla multiplicar</a>";
+$ejer5B = "<a href='Tema2/ejercicios/paleta.php' target='_blank'>Paleta de colores</a>";
+$ejer6B = "<a href='Tema2/ejercicios/calendario.php' target='_blank'>Calendario</a>";
 
 //variables enlaces ejercicios tema 3 arrays
 
-$ejer1A = "<a href='Tema2/ejercicios/arrayComunidades.php' target='_blank'><p>Array Comunidades</p></a>";
-$ejer2A = "<a href='Tema2/ejercicios/arrayComunidadesII.php' target='_blank'><p>Array Comunidades II</p></a>";
-$ejer3A = "<a href='Tema2/ejercicios/arrayComunidadesCovid.php' target='_blank'><p>Array Comunidades Covid</p></a>";
-$ejer4A = "<a href='Tema2/ejercicios/arrayMeses.php' target='_blank'><p>Mostrar un array con los meses del año</p></a>";
-$ejer5A = "<a href='Tema2/ejercicios/arrayTableroBarcos.php' target='_blank'><p>Mostrar un array con el tablero de hundir la flota</p></a>";
-$ejer6A = "<a href='Tema2/ejercicios/arrayNotas.php' target='_blank'><p>Mostrar un array con las notas de los alumnos de 2º daw</p></a>";
-$ejer7A = "<a href='Tema2/ejercicios/arrayMundo.php' target='_blank'><p>Mostrar un array con los continentes paises capitales y banderas</p></a>";
-$ejer8A = "<a href='Tema2/ejercicios/verbosIngles.php' target='_blank'><p>Mostrar lista verbos irregulares en ingles</p></a>";
-$ejer9A = "<a href='Tema2/ejercicios/arrayRestaurante.php' target='_blank'><p>Carta restaurante</p></a>";
-$ejer10A = "<a href='Tema2/ejercicios/arrayAlumnosClase.php' target='_blank'><p>Array alumnos</p></a>";
-$ejer11A = "<a href='Tema2/ejercicios/arrayVentaComercio.php' target='_blank'><p>Array promedio venta comercio</p></a>";
-$ejer12A = "<a href='Tema2/ejercicios/arrayEjercicios.php' target='_blank'><p>ejercicios</p></a>";
+$ejer1A = "<a href='Tema2/ejercicios/arrayComunidades.php' target='_blank'>Array Comunidades</a>";
+$ejer2A = "<a href='Tema2/ejercicios/arrayComunidadesII.php' target='_blank'>Array Comunidades II</a>";
+$ejer3A = "<a href='Tema2/ejercicios/arrayComunidadesCovid.php' target='_blank'>Array Comunidades Covid</a>";
+$ejer4A = "<a href='Tema2/ejercicios/arrayMeses.php' target='_blank'>Mostrar un array con los meses del año</a>";
+$ejer5A = "<a href='Tema2/ejercicios/arrayTableroBarcos.php' target='_blank'>Mostrar un array con el tablero de hundir la flota</a>";
+$ejer6A = "<a href='Tema2/ejercicios/arrayNotas.php' target='_blank'>Mostrar un array con las notas de los alumnos de 2º daw</a>";
+$ejer7A = "<a href='Tema2/ejercicios/arrayMundo.php' target='_blank'>Mostrar un array con los continentes paises capitales y banderas</a>";
+$ejer8A = "<a href='Tema2/ejercicios/verbosIngles.php' target='_blank'>Mostrar lista verbos irregulares en ingles</a>";
+$ejer9A = "<a href='Tema2/ejercicios/arrayRestaurante.php' target='_blank'>Carta restaurante</a>";
+$ejer10A = "<a href='Tema2/ejercicios/arrayAlumnosClase.php' target='_blank'>Array alumnos</a>";
+$ejer11A = "<a href='Tema2/ejercicios/arrayVentaComercio.php' target='_blank'>Array promedio venta comercio</a>";
+$ejer12A = "<a href='Tema2/ejercicios/arrayEjercicios.php' target='_blank'>ejercicios</a>";
 
 
 //variables enlaces ejercicios tema 3 formularios
 
-$ejer1F ="<a href='Tema2/ejercicios/formulario.html' target='_blank'><p>Formulario HTML</p></a>";
-$ejer2F ="<a href='Tema2/ejercicios/formulario.php' target='_blank'><p>Formulario PHP</p></a>";
-$ejer3F= "<a href='Tema2/ejercicios/formulario2.php' target='_blank'><p>Formulario PHP 2</p></a>";
-$ejer4F = "<a href='Tema2/ejercicios/cargaformulario.php' target='_blank'><p>Formulario</p></a>";
-$ejer5F = "<a href='Tema2/ejercicios/ejemplo2.php' target='_blank'><p>Formulario ejemplo</p></a>";
+$ejer1F ="<a href='Tema2/ejercicios/formulario.html' target='_blank'>Formulario HTML</a>";
+$ejer2F ="<a href='Tema2/ejercicios/formulario.php' target='_blank'>Formulario PHP</a>";
+$ejer3F= "<a href='Tema2/ejercicios/formulario2.php' target='_blank'>Formulario PHP 2</a>";
+$ejer4F = "<a href='Tema2/ejercicios/cargaformulario.php' target='_blank'>Formulario</a>";
+$ejer5F = "<a href='Tema2/ejercicios/ejemplo2.php' target='_blank'>Formulario ejemplo</a>";
 
 //variables enlaces ejercicios tema 3 funciones
 
-$ejer1Fu = "<a href='Tema2/ejercicios/funcion.php' target='_blank'><p>Ejemplo función</p></a>";
-$ejer2Fu = "<a href='Tema2/ejercicios/funcion2.php' target='_blank'><p>Ejemplo función</p></a>";
-$ejer3Fu = "<a href='Tema2/ejercicios/funcionDNI.php' target='_blank'><p>Función para calcular letra del DNI</p></a>";
-$ejer4Fu = "<a href='Tema2/ejercicios/dni.php' target='_blank'><p>DNI</p></a>";
+$ejer1Fu = "<a href='Tema2/ejercicios/funcion.php' target='_blank'>Ejemplo función</a>";
+$ejer2Fu = "<a href='Tema2/ejercicios/funcion2.php' target='_blank'>Ejemplo función</a>";
+$ejer3Fu = "<a href='Tema2/ejercicios/funcionDNI.php' target='_blank'>Función para calcular letra del DNI</a>";
+$ejer4Fu = "<a href='Tema2/ejercicios/dni.php' target='_blank'>DNI</a>";
 
 //variables enlaces ejercicios tema 4 cookies
 
-$ejer1Ck= "<a href='Tema4/ejercicios/ejercicio1.php' target='_blank'><p>Ejercicio1 cookies</p></a>";
-$ejer2Ck ="<a href='Tema4/ejercicios/ejercicio2.php' target='_blank'><p>Ejercicio2 cookies</p></a>";
-$ejer3Ck = "<a href='Tema4/ejercicios/ejercicio3.php' target='_blank'><p>Ejercicio3 cookies</p></a>";
-$ejer4Ck ="<a href='Tema4/ejercicios/ejercicio4Sesiones.php' target='_blank'><p>Ejercicio4 cookies</p></a>";
-$ejer5Ck ="<a href='Tema4/ejercicios/ejemplo1.php' target='_blank'><p>Eje1</p></a>";
-$ejer6Ck ="<a href='Tema4/ejercicios/ejemplo2.php' target='_blank'><p>Eje2</p></a>";
+$ejer1Ck= "<a href='Tema4/ejercicios/ejercicio1.php' target='_blank'>Ejercicio1 cookies</a>";
+$ejer2Ck ="<a href='Tema4/ejercicios/ejercicio2.php' target='_blank'>Ejercicio2 cookies</a>";
+$ejer3Ck = "<a href='Tema4/ejercicios/ejercicio3.php' target='_blank'>Ejercicio3 cookies</a>";
+$ejer4Ck ="<a href='Tema4/ejercicios/ejercicio4Sesiones.php' target='_blank'>Ejercicio4 cookies</a>";
+$ejer5Ck ="<a href='Tema4/ejercicios/ejemplo1.php' target='_blank'>Eje1</a>";
+$ejer6Ck ="<a href='Tema4/ejercicios/ejemplo2.php' target='_blank'>Eje2</a>";
 
 
 //variables enlaces ejercicios tema 4 sesiones
 
 
 
+//Array que recorre los ejercicios
+
 $aEjercicios = array(
   "Ejercicios Tema 4 cookies" => array(
-    "Descripcion" => "Ejercicios sobre el uso de las cookies",
-    "Ejercicio1" => $ejer1Ck,
-    "Ejercicio2" => $ejer2Ck,
-    "Ejercicio3" => $ejer3Ck,
-    "Ejercicio4" => $ejer4Ck,
-    "Ejercicio5" => $ejer5Ck,
-    "Ejercicio6" => $ejer6Ck,
+    "Descripcion: " => "Ejercicios sobre el uso de las cookies",
+    "Ejercicio1: " => $ejer1Ck,
+    "Ejercicio2: " => $ejer2Ck,
+    "Ejercicio3: " => $ejer3Ck,
+    "Ejercicio4: " => $ejer4Ck,
+    "Ejercicio5: " => $ejer5Ck,
+    "Ejercicio6: " => $ejer6Ck,
     "Ejercicios en Github =>" => "<a href='https://github.com/jlalvarezfernandez?tab=repositories' target='_blank'><button>GitHub</button></a> ",
   ),
   "Ejercicios Tema 3 Funciones" => array(
-    "Descripcion" => "Ejercicios sobre el uso de las estructuras de control: condicionales, bucles, arrays, formularios...",
-    "Ejercicio1" => $ejer1Fu,
-    "Ejercicio2" => $ejer2Fu,
-    "Ejercicio3" => $ejer3Fu,
+    "Descripcion: " => "Ejercicios sobre el uso de las estructuras de control: condicionales, bucles, arrays, formularios...",
+    "Ejercicio1: " => $ejer1Fu,
+    "Ejercicio2: " => $ejer2Fu,
+    "Ejercicio3: " => $ejer3Fu,
     "Ejercicio4" => $ejer4Fu,
     "Ejercicios en Github =>" => "<a href='https://github.com/jlalvarezfernandez?tab=repositories' target='_blank'><button>GitHub</button></a> ",
   ),
   "Ejercicios Tema 3 Formularios" => array(
-    "Descripcion" => "Ejercicios sobre el uso de las estructuras de control: condicionales, bucles, arrays, formularios...",
-    "Ejercicio1" => $ejer1F,
-    "Ejercicio2" => $ejer2F,
-    "Ejercicio3" => $ejer3F,
-    "Ejercicio4" => $ejer4F,
-    "Ejercicio5" => $ejer5F,
+    "Descripcion: " => "Ejercicios sobre el uso de las estructuras de control: condicionales, bucles, arrays, formularios...",
+    "Ejercicio1: " => $ejer1F,
+    "Ejercicio2: " => $ejer2F,
+    "Ejercicio3: " => $ejer3F,
+    "Ejercicio4: " => $ejer4F,
+    "Ejercicio5: " => $ejer5F,
     "Ejercicios en Github =>" => "<a href='https://github.com/jlalvarezfernandez?tab=repositories' target='_blank'><button>GitHub</button></a> ",
   ),
   "Ejercicios Tema 3 Arrays" => array(
-    "Descripcion" => "Ejercicios sobre el uso de las estructuras de control: condicionales, bucles, arrays...",
-    "Ejercicio1" => $ejer1A,
-    "Ejercicio2" => $ejer2A ,
-    "Ejercicio3" => $ejer3A ,
-    "Ejercicio4" => $ejer4A ,
-    "Ejercicio5" => $ejer5A ,
-    "Ejercicio6" => $ejer6A ,
-    "Ejercicio7" => $ejer7A ,
-    "Ejercicio8" => $ejer8A ,
-    "Ejercicio9" => $ejer9A ,
-    "Ejercicio10" => $ejer10A ,
-    "Ejercicio11" => $ejer11A ,
-    "Ejercicio12" => $ejer12A ,
+    "Descripcion: " => "Ejercicios sobre el uso de las estructuras de control: condicionales, bucles, arrays...",
+    "Ejercicio1: " => $ejer1A,
+    "Ejercicio2: " => $ejer2A ,
+    "Ejercicio3: " => $ejer3A ,
+    "Ejercicio4: " => $ejer4A ,
+    "Ejercicio5: " => $ejer5A ,
+    "Ejercicio6: " => $ejer6A ,
+    "Ejercicio7: " => $ejer7A ,
+    "Ejercicio8: " => $ejer8A ,
+    "Ejercicio9: " => $ejer9A ,
+    "Ejercicio10: " => $ejer10A ,
+    "Ejercicio11: " => $ejer11A ,
+    "Ejercicio12: " => $ejer12A ,
     "Ejercicios en Github =>" => "<a href='https://github.com/jlalvarezfernandez?tab=repositories' target='_blank'><button>GitHub</button></a> ",
   ),
   "Ejercicios Tema 3 Estructuras Repetitivas" => array(
-    "Descripcion" => "Ejercicios sobre el uso de las estructuras de control: condicionales, bucles, arrays...",
-    "Ejercicio1" => $ejer1B,
-    "Ejercicio2" => $ejer2B ,
-    "Ejercicio3" => $ejer3B ,
-    "Ejercicio4" => $ejer4B ,
-    "Ejercicio5" => $ejer5B ,
+    "Descripcion: " => "Ejercicios sobre el uso de las estructuras de control: condicionales, bucles, arrays...",
+    "Ejercicio1: " => $ejer1B,
+    "Ejercicio2: " => $ejer2B ,
+    "Ejercicio3: " => $ejer3B ,
+    "Ejercicio4: " => $ejer4B ,
+    "Ejercicio5: " => $ejer5B ,
     "Ejercicios en Github =>" => "<a href='https://github.com/jlalvarezfernandez?tab=repositories' target='_blank'><button>GitHub</button></a> ",
   ),
   "Ejercicios Tema 3 Condicionales" => array(
-    "Descripcion" => "Ejercicios sobre el uso de las estructuras de control: condicionales, bucles, arrays...",
-    "Ejercicio1" => $ejer1C ,
-    "Ejercicio2" => $ejer2C ,
-    "Ejercicio3" => $ejer3C ,
-    "Ejercicio4" => $ejer4C ,
-    "Ejercicio5" => $ejer5C ,
+    "Descripcion: " => "Ejercicios sobre el uso de las estructuras de control: condicionales, bucles, arrays...",
+    "Ejercicio1: " => $ejer1C ,
+    "Ejercicio2: " => $ejer2C ,
+    "Ejercicio3: " => $ejer3C ,
+    "Ejercicio4: " => $ejer4C ,
+    "Ejercicio5: " => $ejer5C ,
     "Ejercicios en Github =>" => "<a href='https://github.com/jlalvarezfernandez?tab=repositories' target='_blank'><button>GitHub</button></a> ",
   ),
   "Ejercicios Tema 2 " => array(
-    "Descripcion" => "Ejercicios básicos sobre estructura y sintaxis del lenguaje de programación PHP",
-    "Ejercicio1" => $ejer1,
-    "Ejercicio2" => $ejer2,
-    "Ejercicio3" => $ejer3,
-    "Ejercicio4" => $ejer4,
-    "Ejercicio5" => $ejer5,
-    "Ejercicio6" => $ejer6,
-    "Ejercicio7" => $ejer7,
+    "Descripcion: " => "Ejercicios básicos sobre estructura y sintaxis del lenguaje de programación PHP",
+    "Ejercicio1: " => $ejer1,
+    "Ejercicio2: " => $ejer2,
+    "Ejercicio3: " => $ejer3,
+    "Ejercicio4: " => $ejer4,
+    "Ejercicio5: " => $ejer5,
+    "Ejercicio6: " => $ejer6,
+    "Ejercicio7: " => $ejer7,
     "Ejercicios en Github =>" => "<a href='https://github.com/jlalvarezfernandez/DWES19-20/tree/master/TEMA1/ejercicios' target='_blank'><button>GitHub</button></a> ",
-  ),
+    
   
-);
+));
 
 
 
@@ -203,7 +197,7 @@ $aEjercicios = array(
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css" integrity="sha384-Smlep5jCw/wG7hdkwQ/Z5nLIefveQRIY9nfy6xoR1uRYBtpZgI6339F5dgvm/e9B" crossorigin="anonymous">
   <link rel="stylesheet" href="css/style.css">
 
-  <title>Resume</title>
+  <title>Ejercicios DWES curso 19-20</title>
 </head>
 
 <body>
@@ -252,7 +246,6 @@ $aEjercicios = array(
           <p>Portfolio</p>
         </a>
 
-
         <?php
         echo "<h2> EJERCICIOS DWES </h2>";
         echo"<br>";
@@ -262,14 +255,14 @@ $aEjercicios = array(
          
           foreach ($temas as $titulo => $concepto) {
             
-            echo "<b>" . $titulo . "</b> " . $concepto."<br>";
+            echo "<b>" . $titulo . " </b> " . $concepto."<br>";
            
           }
         }
 
         ?>
 
-         <div>
+        <!--  <div>
           <h3 class="border-bottom-gray">Projects</h3>
           <div class="project">
             <h5>Project X</h5>
@@ -325,7 +318,7 @@ $aEjercicios = array(
           <li>English</li>
         </ul>
       </div>
-    </div>
+    </div> -->
     <div id="resume-footer" class="row">
       <div class="col">
         &copy; José Luis Álvarez Fernández
