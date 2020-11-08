@@ -3,6 +3,9 @@
 /**
  * 3. - Script que escriba el resultado de la suma de dos números almacenados en dos variables.
  * @author JOSÉ LUIS ÁLVAREZ FERNÁNDEZ
+ * Para realizar este ejercicio tenemos que definir dos variables a las que asignamos
+ * un valor numérico.
+ * Despues en otra variable almacenamos el resultado de sumas las 2 variables
  */
 
 // VARIABLES
@@ -23,7 +26,7 @@ $resultado = $num2 + $num1;
     <link rel="stylesheet" href="../css/normalize.css">
     <link rel="stylesheet" href="../css/estilos.css">
 
-    <title>Document</title>
+    <title>Ejercicio 3</title>
 </head>
 
 <body>
