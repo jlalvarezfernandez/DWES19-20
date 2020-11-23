@@ -1,0 +1,49 @@
+
+header {
+    text-align: center;
+    margin: 0;
+    background-color: black;
+    color: white;
+    padding: 16px;
+    font-size: 18;
+}
+
+footer {
+    text-align: center;
+    margin: 0;
+    background-color: black;
+    color: white;
+    padding: 20px;
+
+}
+
+main {
+  background-color: whitesmoke;
+    padding: 10px;
+
+}
+section h2 {
+    text-align: center;
+}
+
+
+section {
+    padding: 10px;
+    margin: 10px;
+}
+article {
+    min-height: 48vh;
+    padding: 10px;
+    margin: 10px;
+    text-align: left;
+    font-size: 18px;
+
+}
+.phpCode{
+    text-align: justify;
+    
+}
+
+
+
+

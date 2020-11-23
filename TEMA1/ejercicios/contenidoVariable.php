@@ -8,9 +8,10 @@
  * int(28)
  * NULL
  * 
- * @author JOSÉ LUIS ÁLVAREZ FERNÁNDEZ
- * 
  * Guardamos valores en diferentes variables y las mostramos por pantalla
+ * 
+ *  @author JOSÉ LUIS ÁLVAREZ FERNÁNDEZ
+ * FECHA 23/NOVIEMBRE/2020
  */
 
 //variables
@@ -31,42 +32,32 @@ $var4 = "NULL";
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="author" content="José Luis Álvarez Fernández">
     <link rel="stylesheet" href="../css/normalize.css">
-    <link rel="stylesheet" href="../css/estilos.css">
-
-    <title>Ejercicio 6</title>
-</head>
+    <link rel="stylesheet" href="../css/nuevosEstilos.css">
+    <title>Ejercico 6 Tema 1 Programación Básica</title>
 
 <body>
     <header>
-        <h1>EJERCICIO 6</h1>
+        <h1><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/PHP-logo.svg/1200px-PHP-logo.svg.png" alt="php" width="70px">EJERCICIOS TEMA 1 PROGRAMACIÓN BÁSICA<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/PHP-logo.svg/1200px-PHP-logo.svg.png" alt="php" width="70px"></h1>
     </header>
-<div id="principal">
-        <main>
+    <main>
+        <h2>EJERCICIO 6 PROGRAMACIÓN BÁSICA</h2>
+        <section>
+            <h2><b>MOSTRAR CONTENIDO DE VARIABLES</b></h2>
             <article>
-                <h2><b>Mostrar contenido variables</b></h2>
                 <?php
-                echo $var1 . "<br>";
-                echo $var2 . "<br>";
-                echo $var3 . "<br>";
-                echo $var4 . "<br>";
+                  echo $var1 . "<br>";
+                  echo $var2 . "<br>";
+                  echo $var3 . "<br>";
+                  echo $var4 . "<br>";
                 ?>
+                <br>
+                <br>
+                <a href="https://github.com/jlalvarezfernandez/DWES19-20/blob/master/TEMA1/ejercicios/presentacion.php" target="_blank"><button class="codigo">VER CÓDIGO</button></a>
             </article>
-        </main>
-        
-        <aside>
-            <section>
-                <h2>Github</h2>
-                <a href="https://github.com/jlalvarezfernandez/DWES19-20/blob/master/TEMA1/ejercicios/contenidoVariable.php" target="_blank"><button>GitHub</button></a> 
-            </section>
-
-        </aside>
-        </div>
-
-  
+        </section>
+    </main>
     <footer>
-        <h4>&copy; José Luis Álvares Fernández</h4>
+        &copy; JOSÉ LUIS ÁLVAREZ FERNÁNDEZ
     </footer>
-
 </body>
-
 </html>
